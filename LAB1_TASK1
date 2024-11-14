@@ -116,6 +116,6 @@ def fit(n_iter, X, y):
             print("Misclassified Samples: ", errors)
             plot_boundary(W,X) # When weights are updated we plot the boundary
         plot_errors(errors_)
-
+        
 n_iter=8
 fit(n_iter, X, y)
